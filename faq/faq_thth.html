@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>FAQ</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;  /* Chrome, Safari */
+            -moz-user-select: none;     /* Firefox */
+            -ms-user-select: none;      /* IE10+ */
+            user-select: none;          /* Standard */
+        }
+
+        body {
+            font-family: 'Noto Sans CJK TC', 'Noto Sans CJK SC', 'Roboto', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+            background: transparent;
+            color: #1F1F1F;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #01010100 0%, #01010100 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #7BE099 0%, #344D99 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero-title {
+            font-size: 2.2em;
+            font-weight: 400;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1em;
+            font-weight: 300;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 16px;
+            margin-top: 16px;
+            padding: 20px;
+            background: #7777770A;
+            border-radius: 12px;
+        }
+
+        .faq-question {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer {
+            font-size: 0.95em;
+            font-weight: 300;
+            color: #1F1F1F;
+            line-height: 1.7;
+        }
+
+        .faq-answer a {
+            color: #28A09A;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 40px 15px;
+            }
+
+            .hero-title {
+                font-size: 1.8em;
+            }
+
+            .hero-subtitle {
+                font-size: 1em;
+            }
+
+            .faq-content {
+                padding: 30px 15px;
+            }
+
+            .faq-item {
+                padding: 20px;
+                margin-bottom: 25px;
+            }
+
+            .faq-question {
+                font-size: 1.1em;
+            }
+
+            .faq-answer {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">สวัสดี เราช่วยอะไรคุณได้บ้างคะ?</h1>
+        <p class="hero-subtitle">
+            สวัสดีค่ะ ขขอบคุณที่ใช้ Message Peeping Tom หากคุณพบปัญหาในการใช้งาน กรุณาดูคำตอบของคำถามที่พบบ่อยด้านล่างก่อนนะคะ หวังว่าคุณจะใช้งานอย่างสนุกสนานค่ะ
+        </p>
+    </div>
+</section>
+
+<section class="faq-content" id="faq">
+    <div class="container">
+
+        <div class="faq-item">
+            <h3 class="faq-question">เตือนความจำ</h3>
+            <div class="faq-answer">
+                หากวิธีการด้านล่างทั้งหมดไม่ได้ผล กรุณาลองรีสตาร์ทโทรศัพท์ของคุณ
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">1. รับข้อความไม่ได้ทำยังไงดี?</h3>
+            <div class="faq-answer">
+                ตรวจสอบให้แน่ใจว่าได้เปิดสิทธิ์การเข้าถึงการแจ้งเตือนแล้ว <strong><a href="mpt://notification.access/">แตะที่นี่เพื่อเปิดใช้งาน</a></strong>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">2. การตั้งค่าแอปส่งข้อความ</h3>
+            <div class="faq-answer">
+                <p>ในการตั้งค่าของแอปส่งข้อความ <strong>(LINE, Instagram, Messenger, WhatsApp, Telegram ฯลฯ)</strong> ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานฟังก์ชันต่อไปนี้
+                    <br>เปิดใช้งาน ✓<strong>「การแจ้งเตือน」หรือ「การเตือน」</strong>
+                    <br>เปิดใช้งาน ✓<strong>「แสดงเนื้อหาข้อความ」หรือ「ตัวอย่างข้อความ」</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">3. ทำไมถึงเห็น「คุณมีข้อความใหม่」เสมอ?</h3>
+            <div class="faq-answer">
+                กรุณาตรวจสอบให้แน่ใจว่าแอปส่งข้อความของคุณได้เปิดใช้งานการแจ้งเตือนอย่างถูกต้อง เมื่อรับข้อความจะต้องแสดงในแผงการแจ้งเตือนของระบบ และแสดงเนื้อหาข้อความที่สมบูรณ์ เพื่อให้ทำงานได้ปกติ
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">4. รักษาการเชื่อมต่อเครือข่ายให้เสถียร</h3>
+            <div class="faq-answer">
+                MPT สามารถรับการแจ้งเตือนที่แสดงในแผงการแจ้งเตือนเท่านั้น หากเมื่อคุณเปิดใช้งานเครือข่ายมีข้อความเข้ามาพร้อมกันหลายข้อความ แต่แอปส่งข้อความของคุณแสดงเฉพาะข้อความสุดท้าย เราจะสามารถรับได้เฉพาะข้อความสุดท้ายเท่านั้น ดังนั้นการรักษาการเชื่อมต่อเครือข่ายให้เสถียรจะช่วยให้รับข้อความส่วนใหญ่ได้ นอกจากนี้หากโทรศัพท์อยู่ในโหมดประหยัดแบตเตอรี่ ระบบอาจปิดเครือข่ายขณะรอและทำให้รับข้อความไม่ได้
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">5. การตั้งค่าระบบที่เกี่ยวข้องกับแบตเตอรี่</h3>
+            <div class="faq-answer">
+                ตามที่กล่าวข้างต้น เพื่อให้สามารถรับข้อความได้อย่างราบรื่นเมื่อเครือข่ายเสถียร กรุณาตรวจสอบให้แน่ใจว่าในการตั้งค่าประหยัดแบตเตอรี่ของโทรศัพท์ได้ยกเว้น MPT, LINE, Instagram, Facebook, Telegram และแอปส่งข้อความอื่นๆ ที่คุณต้องการสนับสนุน
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">6. ใช้งานไปสักพักแล้วรับข้อความไม่ได้?</h3>
+            <div class="faq-answer">
+                ระบบโทรศัพท์บางรุ่นจะล้างบริการเบื้องหลังของแอปพลิเคชันอื่นๆ โดยอัตโนมัติเป็นระยะๆ เพื่อประสิทธิภาพและการประหยัดพลังงาน MPT อาจถูกล้างออกไปด้วย เพื่อให้แน่ใจว่าบริการของ MPT ทำงานปกติ ตรวจสอบให้แน่ใจว่าฟังก์ชันประหยัดแบตเตอรี่ของโทรศัพท์ได้ยกเว้น MPT แล้ว หรือรีสตาร์ทโทรศัพท์
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">7. แอปอะไรบ้างที่จะส่งผลต่อการทำงานของ MPT?</h3>
+            <div class="faq-answer">
+                หากคุณติดตั้งแอปที่เกี่ยวข้องกับการประหยัดแบตเตอรี่ แอนตี้ไวรัส การเพิ่มประสิทธิภาพ แอปเหล่านี้อาจหยุดบริการเบื้องหลังของ MPT เพื่อเร่งการทำงานของระบบ กรุณาตั้งค่า MPT, LINE, Instagram, Facebook, Telegram และแอปส่งข้อความอื่นๆ ที่คุณต้องการสนับสนุนเป็นรายการที่อนุญาต
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">8. ทำไมข้อความกลุ่มถึงถูกจัดเป็นข้อความส่วนตัว?</h3>
+            <div class="faq-answer">
+                MPT สามารถรับการแจ้งเตือนที่แสดงในแผงการแจ้งเตือนเท่านั้น คุณจะสังเกตได้ว่าแอปส่งข้อความบางครั้งไม่แสดงว่าข้อความมาจากกลุ่มไหนเมื่อแสดงในแผงการแจ้งเตือน ดังนั้น MPT จึงไม่สามารถระบุได้ว่าข้อความมาจากกลุ่มไหน นี่เป็นข้อจำกัดที่เราไม่สามารถแก้ไขได้ เว้นแต่แอปส่งข้อความจะปรับปรุงการออกแบบการแจ้งเตือน
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">9. ทำไมไม่สามารถสนับสนุนรูปภาพ วิดีโอ เสียง?</h3>
+            <div class="faq-answer">
+                เนื่องจากระบบความปลอดภัยที่ครบถ้วนของ Android, MPT ไม่สามารถเข้าถึงข้อความที่เป็นความลับมากกว่าจากซอฟต์แวร์ส่งข้อความได้ เราขออภัยในข้อจำกัดนี้
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">10. ทำไมเมื่อเปิด LINE เวอร์ชันคอมพิวเตอร์ MPT ถึงรับข้อความไม่ได้?</h3>
+            <div class="faq-answer">
+                ใน LINE เวอร์ชันคอมพิวเตอร์ ตั้งค่าเริ่มต้นจะปิดการแจ้งเตือนในโทรศัพท์เมื่อเปิดเวอร์ชันคอมพิวเตอร์ ทำให้รับข้อความไม่ได้ เพื่อให้ MPT ทำงานปกติ กรุณาตั้งค่าใน LINE เวอร์ชันคอมพิวเตอร์: 「การตั้งค่า」→「การแจ้งเตือน」→ยกเลิกการเลือก「ปิดการแจ้งเตือนมือถือเมื่อใช้เวอร์ชัน PC」
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">11. ทำไมข้อความไม่สมบูรณ์?</h3>
+            <div class="faq-answer">
+                MPT สามารถรับการแจ้งเตือนที่แสดงในแผงการแจ้งเตือนเท่านั้น หากความยาวข้อความสูงสุดที่แอปส่งข้อความสามารถให้ได้น้อยกว่าข้อความจริง สถานการณ์นี้จะเกิดขึ้น แอปส่งข้อความแต่ละตัวมีกลไกการทำงานที่แตกต่างกัน เราขออภัยในข้อจำกัดนี้
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">12. ฉันคิดว่า MPT น่าจะดีขึ้นได้อีก</h3>
+            <div class="faq-answer">
+                หากคุณมีคำขอฟีเจอร์หรือข้อเสนอแนะ ยินดีต้อนรับให้มาที่หน้า <strong><a href="mpt://open.fb/" target="_blank">Facebook</a></strong> ของเรา หรือส่ง <strong><a href="mpt://send.email/" target="_blank">Email</a></strong> มาหาเราค่ะ!
+            </div>
+        </div>
+
+    </div>
+</section>
+</body>
+</html>

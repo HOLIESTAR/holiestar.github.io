@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>FAQ</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;  /* Chrome, Safari */
+            -moz-user-select: none;     /* Firefox */
+            -ms-user-select: none;      /* IE10+ */
+            user-select: none;          /* Standard */
+        }
+
+        body {
+            font-family: 'Noto Sans CJK TC', 'Noto Sans CJK SC', 'Roboto', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+            background: transparent;
+            color: #1F1F1F;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #01010100 0%, #01010100 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #7BE099 0%, #344D99 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero-title {
+            font-size: 2.2em;
+            font-weight: 400;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1em;
+            font-weight: 300;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 16px;
+            margin-top: 16px;
+            padding: 20px;
+            background: #7777770A;
+            border-radius: 12px;
+        }
+
+        .faq-question {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer {
+            font-size: 0.95em;
+            font-weight: 300;
+            color: #1F1F1F;
+            line-height: 1.7;
+        }
+
+        .faq-answer a {
+            color: #28A09A;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 40px 15px;
+            }
+
+            .hero-title {
+                font-size: 1.8em;
+            }
+
+            .hero-subtitle {
+                font-size: 1em;
+            }
+
+            .faq-content {
+                padding: 30px 15px;
+            }
+
+            .faq-item {
+                padding: 20px;
+                margin-bottom: 25px;
+            }
+
+            .faq-question {
+                font-size: 1.1em;
+            }
+
+            .faq-answer {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">Xin chào, chúng tôi có thể giúp gì cho bạn?</h1>
+        <p class="hero-subtitle">
+            Kính chào quý người dùng, cảm ơn bạn đã sử dụng Message Peeping Tom. Nếu bạn gặp khó khăn trong quá trình sử dụng, vui lòng xem các giải pháp cho những câu hỏi thường gặp dưới đây trước. Chúc bạn sử dụng vui vẻ.
+        </p>
+    </div>
+</section>
+
+<section class="faq-content" id="faq">
+    <div class="container">
+
+        <div class="faq-item">
+            <h3 class="faq-question">Lưu ý</h3>
+            <div class="faq-answer">
+                Nếu tất cả các phương pháp dưới đây đều không hiệu quả, vui lòng thử khởi động lại điện thoại
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">1. Không nhận được tin nhắn phải làm sao?</h3>
+            <div class="faq-answer">
+                Xác nhận đã bật quyền truy cập thông báo, <strong><a href="mpt://notification.access/">nhấn vào đây để bật</a></strong>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">2. Cài đặt ứng dụng nhắn tin</h3>
+            <div class="faq-answer">
+                <p>Trong cài đặt của các ứng dụng nhắn tin <strong>(Zalo, LINE, Instagram, Messenger, WhatsApp, Telegram, v.v.)</strong> xác nhận đã bật các tính năng sau:
+                    <br>Bật ✓<strong>「Thông báo」hoặc「Cảnh báo」</strong>
+                    <br>Bật ✓<strong>「Hiển thị nội dung tin nhắn」hoặc「Xem trước tin nhắn」</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">3. Tại sao luôn nhận được「Bạn có tin nhắn mới」?</h3>
+            <div class="faq-answer">
+                Vui lòng xác nhận các ứng dụng nhắn tin của bạn đã bật tính năng thông báo đúng cách; khi nhận tin nhắn sẽ hiển thị trong bảng thông báo hệ thống và hiển thị nội dung tin nhắn đầy đủ để có thể hoạt động bình thường.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">4. Giữ kết nối mạng ổn định</h3>
+            <div class="faq-answer">
+                MPT chỉ có thể nhận các thông báo được hiển thị trong bảng thông báo. Nếu khi bạn bật chức năng mạng có nhiều tin nhắn đến cùng lúc, nhưng ứng dụng nhắn tin của bạn chỉ hiển thị tin nhắn cuối cùng, chúng tôi chỉ có thể nhận tin nhắn cuối cùng đó. Do đó, việc giữ kết nối mạng ổn định sẽ giúp nhận được hầu hết các tin nhắn. Ngoài ra, nếu điện thoại ở chế độ tiết kiệm pin, hệ thống có thể tắt mạng khi chờ và khiến không thể nhận tin nhắn.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">5. Cài đặt hệ thống liên quan đến pin</h3>
+            <div class="faq-answer">
+                Như đã đề cập ở trên, để có thể nhận tin nhắn một cách trôi chảy khi mạng ổn định, vui lòng xác nhận trong cài đặt tiết kiệm pin của điện thoại đã loại trừ MPT, Zalo, LINE, Instagram, Facebook, Telegram và các ứng dụng nhắn tin khác mà bạn cần hỗ trợ.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">6. Sử dụng một thời gian rồi không thể nhận tin nhắn?</h3>
+            <div class="faq-answer">
+                Một số hệ thống điện thoại sẽ tự động xóa các dịch vụ nền của ứng dụng khác một cách định kỳ để tối ưu hiệu suất và tiết kiệm năng lượng. MPT cũng có thể bị xóa. Để đảm bảo dịch vụ MPT hoạt động bình thường, xác nhận chức năng tiết kiệm pin của điện thoại đã loại trừ MPT, hoặc khởi động lại điện thoại.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">7. Những ứng dụng nào sẽ ảnh hưởng đến hoạt động của MPT?</h3>
+            <div class="faq-answer">
+                Nếu bạn đã cài đặt các ứng dụng liên quan đến tiết kiệm pin, chống virus, tối ưu hiệu suất, những ứng dụng này có thể dừng dịch vụ nền của MPT để tăng tốc hoạt động hệ thống. Vui lòng đặt MPT, Zalo, LINE, Instagram, Facebook, Telegram và các ứng dụng nhắn tin khác mà bạn cần hỗ trợ vào danh sách trắng.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">8. Tại sao tin nhắn nhóm lại được phân loại thành tin nhắn cá nhân?</h3>
+            <div class="faq-answer">
+                MPT chỉ có thể nhận các thông báo được hiển thị trong bảng thông báo. Bạn sẽ thấy các ứng dụng nhắn tin đôi khi không hiển thị tin nhắn đến từ nhóm nào khi hiển thị trong bảng thông báo, do đó MPT cũng không thể xác định tin nhắn đến từ nhóm nào. Đây là hạn chế mà chúng tôi không thể sửa đổi trừ khi các ứng dụng nhắn tin cải thiện thiết kế thông báo.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">9. Tại sao không thể hỗ trợ hình ảnh, video, ghi âm?</h3>
+            <div class="faq-answer">
+                Do hệ thống bảo mật toàn diện của Android, MPT không thể truy cập các tin nhắn riêng tư hơn từ phần mềm nhắn tin. Chúng tôi rất tiếc về hạn chế này.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">10. Tại sao khi mở LINE phiên bản máy tính MPT không nhận được tin nhắn?</h3>
+            <div class="faq-answer">
+                Trong LINE phiên bản máy tính, mặc định sẽ tắt thông báo điện thoại khi mở phiên bản máy tính, lúc này sẽ không nhận được tin nhắn. Để đảm bảo MPT hoạt động bình thường, vui lòng cài đặt trong LINE phiên bản máy tính: 「Cài đặt」→「Thông báo」→ bỏ chọn「Tắt thông báo di động khi sử dụng phiên bản PC」.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">11. Tại sao tin nhắn không đầy đủ?</h3>
+            <div class="faq-answer">
+                MPT chỉ có thể nhận các thông báo được hiển thị trong bảng thông báo. Nếu độ dài tin nhắn tối đa mà ứng dụng nhắn tin có thể cung cấp nhỏ hơn tin nhắn thực tế thì tình況 này sẽ xảy ra. Mỗi ứng dụng nhắn tin khác nhau có cơ chế hoạt động khác nhau, chúng tôi rất tiếc về hạn chế này.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">12. Tôi nghĩ MPT có thể tốt hơn nữa</h3>
+            <div class="faq-answer">
+                Nếu bạn có yêu cầu tính năng hoặc đề xuất, hãy thoải mái ghé thăm trang <strong><a href="mpt://open.fb/" target="_blank">Facebook</a></strong> của chúng tôi hoặc gửi <strong><a href="mpt://send.email/" target="_blank">Email</a></strong> cho chúng tôi!
+            </div>
+        </div>
+
+    </div>
+</section>
+</body>
+</html>

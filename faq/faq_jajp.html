@@ -1,250 +1,242 @@
 <!DOCTYPE HTML>
-
 <html>
-
 <head>
-	<title>既読回避サポーターよくある質問</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
+    <title>FAQ</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;  /* Chrome, Safari */
+            -moz-user-select: none;     /* Firefox */
+            -ms-user-select: none;      /* IE10+ */
+            user-select: none;          /* Standard */
+        }
 
+        body {
+            font-family: 'Noto Sans CJK TC', 'Noto Sans CJK SC', 'Roboto', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+            background: transparent;
+            color: #1F1F1F;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #01010100 0%, #01010100 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #7BE099 0%, #344D99 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero-title {
+            font-size: 2.2em;
+            font-weight: 400;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1em;
+            font-weight: 300;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 16px;
+            margin-top: 16px;
+            padding: 20px;
+            background: #7777770A;
+            border-radius: 12px;
+        }
+
+        .faq-question {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer {
+            font-size: 0.95em;
+            font-weight: 300;
+            color: #1F1F1F;
+            line-height: 1.7;
+        }
+
+        .faq-answer a {
+            color: #28A09A;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 40px 15px;
+            }
+
+            .hero-title {
+                font-size: 1.8em;
+            }
+
+            .hero-subtitle {
+                font-size: 1em;
+            }
+
+            .faq-content {
+                padding: 30px 15px;
+            }
+
+            .faq-item {
+                padding: 20px;
+                margin-bottom: 25px;
+            }
+
+            .faq-question {
+                font-size: 1.1em;
+            }
+
+            .faq-answer {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
 <body>
 
-	<!-- Header -->
-	<section id="header">
-		<div class="inner">
-			<h1>既読回避サポーターよくある質問</h1>
-			<p>この度は、既読回避サポーターをお使い頂きありがとうございます。アプリがうまく作動されない場合、お手数おかけしますが、以下の方法をお試しください。</p>
-			<ul class="actions">
-				<li><a href="#zone0" class="button scrolly">よくある質問</a></li>
-			</ul>
-		</div>
-	</section>
+<section class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">こんにちは、何かお手伝いできることはありますか？</h1>
+        <p class="hero-subtitle">
+            いつも既読回避サポーターをご利用いただき、誠にありがとうございます。ご使用中にご不明な点がございましたら、まずは以下のよくあるご質問をご確認ください。快適にお使いいただけますよう心よりお祈りしております。
+        </p>
+    </div>
+</section>
 
-	<!-- restart your devce -->
-	<section id="zone0" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>お願い</h2>
-					</header>
-					<p>以下の方法をお試し後でも正常にお使い頂けない場合、お手数おかけしますが、端末の再起動をお願い致します。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+<section class="faq-content" id="faq">
+    <div class="container">
 
-	<!-- Notification Access -->
-	<section id="zone1" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>1.メッセージが受け取れない</h2>
-					</header>
-					<p>通知許可のご確認をお願い致します。<strong><a href="mpt://notification.access/">クリックして許可する</a></strong></p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">ご注意ください</h3>
+            <div class="faq-answer">
+                以下の方法をすべてお試しいただいても問題が解決しない場合は、スマートフォンの再起動をお試しください
+            </div>
+        </div>
 
-	<!-- LINE -->
-	<section id="zone2" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>2.LINEの設定</h2>
-					</header>
-					<p><strong>LINE</strong>の設定にあります<strong>「通知」</strong>にて以下の確認をお願い致します。
-						<br><strong>「メッセージ通知の内容表示」</strong>のオン✓
-						<br><strong>「通知」</strong>のオン✓
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">1. メッセージが受信できませんか？</h3>
+            <div class="faq-answer">
+                通知へのアクセス権限が有効になっていることをご確認ください。<strong><a href="mpt://notification.access/">こちらをタップして有効にする</a></strong>
+            </div>
+        </div>
 
-	<!-- LINE -->
-	<section id="zone3" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>3.LINE通知が「新着メッセージがあります」と表示される</h2>
-					</header>
-					<p><strong>LINE</strong>設定にあります<strong>「トーク．通話」</strong>のオフをお願い致します。
-						<br><strong>「Letter Sealing」</strong>のオフ
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">2. メッセージアプリの設定について</h3>
+            <div class="faq-answer">
+                <p>各メッセージアプリ<strong>（LINE、Instagram、Messenger、WhatsApp、Telegram など）</strong>の設定画面で、以下の機能が有効になっていることをご確認ください：
+                    <br>✓<strong>「通知」または「プッシュ通知」</strong>を有効にする
+                    <br>✓<strong>「メッセージ内容を表示」または「メッセージプレビュー」</strong>を有効にする
+                </p>
+            </div>
+        </div>
 
+        <div class="faq-item">
+            <h3 class="faq-question">3. なぜいつも「新しいメッセージがあります」と表示されるのですか？</h3>
+            <div class="faq-answer">
+                お使いのメッセージアプリで通知機能が正しく有効になっていることをご確認ください。メッセージを受信した際に、システムの通知パネルに表示され、かつ完全なメッセージ内容が表示されている必要があります。このようにして初めて正常に動作いたします。
+            </div>
+        </div>
 
-	<!-- Facebook -->
-	<section id="zone4" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>4.Facebookの設定</h2>
-					</header>
-					<p><strong>Messenger</strong>の設定にあります<strong>「お知らせ＆サウンド」</strong>にて以下の機能の確認をお願い致します。
-						<br><strong>「お知らせ＆サウンド」</strong>のオン✓
-						<br><strong>「通知プレビュー」</strong>のオン✓
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">4. ネットワーク接続を安定させてください</h3>
+            <div class="faq-answer">
+                既読回避サポーターは、通知パネルに表示される通知のみを受信することができます。ネットワーク機能を有効にした際に多くのメッセージが同時に届いても、お使いのメッセージアプリが最後のメッセージのみを表示する場合、最後のメッセージのみしか受信できません。そのため、ネットワーク接続を安定させることで、ほとんどのメッセージを受信することが可能になります。また、スマートフォンが省電力モードになっている場合、待機中にシステムによってネットワークが無効になり、メッセージを受信できなくなる可能性もございます。
+            </div>
+        </div>
 
-	<!-- Network -->
-	<section id="zone5" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>5.端末のネット通信を繋げたままにする</h2>
-					</header>
-					<p>既読回避サポーターはステータスバーにある通知のみ受け取ることができます。ネットに繋げた際、同時にたくさんのメッセージを受け取りますと、メッセージアプリ（LINEやMessenger）は最後のメッセージしか表示されません。その場合ですと、既読回避サポーターでも最後のメッセージのみの表示しかできかねません。そのため、ネットに繋げたままの状態でないと、メッセージの受取はできません。また、節電モードでもシステムの影響により、ネットがオフになる可能性があるため、メッセージが表示されない場合がございます。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">5. バッテリー関連のシステム設定について</h3>
+            <div class="faq-answer">
+                上記のとおり、ネットワークが安定している時にスムーズにメッセージを受信するため、お使いのスマートフォンの省電力関連設定において、既読回避サポーター、LINE、Instagram、Facebook、Telegram、およびその他サポートが必要なメッセージアプリを除外設定にしてください。
+            </div>
+        </div>
 
-	<!-- Battery -->
-	<section id="zone6" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>6.電力管理システムの設定</h2>
-					</header>
-					<p>前述同様、ネットに繋がった場合でないと、メッセージの受取は不可能のため、端末の節電モード設定にて、既読回避サポーター、LINE、Facebookその他お使いになっているメッセージアプリの解除をお願い致します。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">6. しばらく使用した後、メッセージを受信できなくなりました</h3>
+            <div class="faq-answer">
+                一部のスマートフォンのシステムでは、パフォーマンスと節電のため、定期的に他のアプリケーションのバックグラウンドサービスを自動的にクリアします。既読回避サポーターも同様にクリアされる可能性があります。既読回避サポーターのサービスが正常に動作するよう、お使いのスマートフォンの省電力機能で既読回避サポーターが除外されていることをご確認いただくか、スマートフォンを再起動してください。
+            </div>
+        </div>
 
-	<!-- no longer receive message after use a while -->
-	<section id="zone7" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>7.急にメッセージが受け取れなくなった</h2>
-					</header>
-					<p>一部の端末システムでは、性能のため不定期にアプリのバックグラウンドサービスを中断する可能性がございます。急にメッセージの受取ができない際には、端末の再起動をお願い致します。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">7. 既読回避サポーターの動作に影響するアプリはありますか？</h3>
+            <div class="faq-answer">
+                省電力、ウイルス対策、パフォーマンス最適化などのアプリをインストールされている場合、これらのアプリがシステムの動作を高速化するために、既読回避サポーターのバックグラウンドサービスを停止する可能性があります。既読回避サポーター、LINE、Instagram、Facebook、Telegram、およびその他サポートが必要なメッセージアプリをホワイトリストに設定してください。
+            </div>
+        </div>
 
-	<!-- no longer receive message after use a while -->
-	<section id="zone8" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>8.既読回避サポーターの作動に影響するアプリは？</h2>
-					</header>
-					<p>節電、ウイルス対策アプリ、最適化ツールなどのアプリをインストールしている場合、システム性能アップのため、既読回避サポーターの作動を停止する可能性がございます。既読回避サポーター、LINE、Facebookをリストから外して頂けますようお願い致します。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">8. なぜグループメッセージが個人メッセージとして分類されるのですか？</h3>
+            <div class="faq-answer">
+                既読回避サポーターは、通知パネルに表示される通知のみを受信することができます。メッセージアプリが通知パネルにメッセージを表示する際、どのグループからのメッセージかを表示しないことがあるため、既読回避サポーターもそのメッセージがどのグループからのものかを判別することができません。これは技術的な制限であり、メッセージアプリの通知設計が改善されない限り、修正することができません。何卒ご理解のほどお願いいたします。
+            </div>
+        </div>
 
-	<!-- group message as personal -->
-	<section id="zone9" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>9.何でグループメッセージが個人メッセージに分類されるの？</h2>
-					</header>
-					<p>既読回避サポーターは通知センターに表示されるメッセージのみ記録されます。しかしLINEのメッセージが通知センターに表示される際、どのグループからのメッセージなのかが表示されません。そのため、本アプリでもグループの区別ができかねません。ご不便おかけし申し訳ありません。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">9. なぜ画像、動画、音声メッセージがサポートされないのですか？</h3>
+            <div class="faq-answer">
+                Android の包括的なセキュリティシステムにより、既読回避サポーターはメッセージソフトウェアのより機密性の高いメッセージにアクセスすることができません。この制限については深くお詫び申し上げます。
+            </div>
+        </div>
 
-	<!-- not support video image voice -->
-	<section id="zone10" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>10.LINEの画像、動画、録音は見れないの？</h2>
-					</header>
-					<p>Androidのセキュリティ設定により、LINE、メッセンジャーのメッセージ以外の読み取りが出来かねません。ご不便おかけし申し訳ありません。何卒ご了承ください。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">10. なぜ LINE のデスクトップ版を開いているとメッセージを受信できないのですか？</h3>
+            <div class="faq-answer">
+                LINE のデスクトップ版では、デフォルトでデスクトップ版を開いている間はスマートフォンの通知が無効になるため、メッセージを受信できなくなります。既読回避サポーターが正常に動作するよう、LINE のデスクトップ版で以下の設定を行ってください：「設定」→「通知」→「PC版利用時にスマートフォンへの通知をオフ」のチェックを外してください。
+            </div>
+        </div>
 
-	<!-- no receive message when using PC version -->
-	<section id="zone11" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>11.LINEのパソコン版で開くとメッセージが受け取れない</h2>
-					</header>
-					<p>パソコン版での使用中携帯端末の通知は停止され、その場合携帯端末ではメッセージの受取はできません。既読回避サポーターを正常にご利用頂くには、パソコン版にて設定をお願い致します。「設定」→「通知」→「通知ルール」→「PC版利用時にはスマートフォン側に通知が行かないようにする」のチェックを外して下さい。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">11. なぜメッセージが不完全なのですか？</h3>
+            <div class="faq-answer">
+                既読回避サポーターは、通知パネルに表示される通知のみを受信することができます。メッセージアプリが提供できる最大メッセージ長が実際のメッセージより短い場合、この状況が発生します。各メッセージアプリにはそれぞれ異なる動作メカニズムがあり、この制限については深くお詫び申し上げます。
+            </div>
+        </div>
 
-	<!-- messenger message not complete -->
-	<section id="zone12" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>12.メッセンジャーのメッセージが正常に表示されない</h2>
-					</header>
-					<p>既読回避サポーターはステータスバーに表示されているメッセージのみ表示されます。実際のメッセージの長さがメッセンジャーの設定長さより長かった場合、正常に表示されません。ご不便おかけし申し訳ありません。何卒ご了承ください。</p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="faq-item">
+            <h3 class="faq-question">12. 既読回避サポーターがもっと良くなればと思います</h3>
+            <div class="faq-answer">
+                ご要望やご提案がございましたら、お気軽に私たちの<strong><a href="mpt://open.fb/" target="_blank">Facebook</a></strong>ページや<strong><a href="mpt://send.email/" target="_blank">メール</a></strong>でお知らせください！
+            </div>
+        </div>
 
-
-	<!-- more feature -->
-	<section id="zone13" class="main style1">
-		<div class="container">
-			<div class="row 150%">
-				<div class="6u 12u$(medium)">
-					<header class="major">
-						<h2>14.既読回避サポーターへお問い合わせ</h2>
-					</header>
-					<p>何か気になる点がありましたらお気軽に<strong><a href="mpt://open.fb/" target="_blank">Facebook</a></strong>フェイスブックページや<strong><a href="mpt://send.email/" target="_blank">メール</a></strong>にてお待ちしております。</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<!-- Footer -->
-	<section id="footer">
-		<ul class="copyright">
-			<li>HOLIESTAR</li>
-			<li>既読回避サポーター</li>
-		</ul>
-	</section>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-
+    </div>
+</section>
 </body>
-
 </html>
