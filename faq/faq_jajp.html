@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>FAQ</title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * {
@@ -95,6 +95,10 @@
             text-decoration: none;
         }
 
+        .faq-battery-optimization {
+            display: none;
+        }
+
         @media (max-width: 768px) {
             .hero-section {
                 padding: 40px 15px;
@@ -152,6 +156,10 @@
             <h3 class="faq-question">1. メッセージが受信できない場合</h3>
             <div class="faq-answer">
                 通知へのアクセス権限がオンになっていることをご確認ください。<strong><a href="mpt://notification.access/">こちらをタップしてオンにする</a></strong>
+            </div>
+            <div class="faq-answer faq-battery-optimization" id="faqBatteryOptimization">
+                <br>
+                メッセージの見逃しを防ぎ、バックグラウンドで安定して動作させるため（設定：バックグラウンドでの使用を許可／制限なし）、<strong><a href="mpt://battery.optimization/">設定に移動</a></strong>
             </div>
             <div class="faq-answer">
                 <br>
